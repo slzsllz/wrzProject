@@ -1,0 +1,15 @@
+104248 MainProcess 2024-01-20 14:34:51,295
+Traceback (most recent call last):
+  File "I:\CondaEnv\test\python37_qtfusion\lib\site-packages\pyarmor\cli\__main__.py", line 718, in main
+    main_entry(sys.argv[1:])
+  File "I:\CondaEnv\test\python37_qtfusion\lib\site-packages\pyarmor\cli\__main__.py", line 706, in main_entry
+    return args.func(ctx, args)
+  File "I:\CondaEnv\test\python37_qtfusion\lib\site-packages\pyarmor\cli\__main__.py", line 237, in cmd_gen
+    Plugin.post_build(ctx)
+  File "I:\CondaEnv\test\python37_qtfusion\lib\site-packages\pyarmor\cli\plugin.py", line 71, in post_build
+    plugin.post_build(ctx, inputs, outputs, pack=pack)
+  File "I:\CondaEnv\test\python37_qtfusion\lib\site-packages\pyarmor\cli\plugin.py", line 209, in post_build
+    move(os.path.dirname(x), verpath)
+  File "I:\CondaEnv\test\python37_qtfusion\lib\shutil.py", line 564, in move
+    raise Error("Destination path '%s' already exists" % real_dst)
+shutil.Error: Destination path 'dist1\engine\py37\darwin_x86_64' already exists

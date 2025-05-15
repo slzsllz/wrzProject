@@ -1,0 +1,5 @@
+train: ./Garbage/images/train
+val: ./Garbage/images/val
+test: ./Garbage/images/test
+nc: 6
+names: ['BIODEGRADABLE', 'CARDBOARD', 'GLASS', 'METAL', 'PAPER', 'PLASTIC']
